@@ -10,24 +10,8 @@ services:
       - "1666:1666"
     env_file:
       - ./envfile
-
-  gfperforce:
-    image: ambakshi/perforce-git-fusion
-    hostname: perforce
-    ports:
-      - "1666:1666"
-      - "2222:22"
-    env_file:
-      - ./envfile
-    environment:
-      - NAME=gfp4depot
-    volumes:
-      - gfp4depot:/data
-
 volumes:
   p4depot:
-    external: true
-  gfp4depot:
     external: true
 
 # vim: sts=2:ts=2:sw=2:et:ft=yaml:
