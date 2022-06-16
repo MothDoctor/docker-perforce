@@ -1,11 +1,7 @@
 FROM ambakshi/perforce-base
 MAINTAINER Amit Bakshi <ambakshi@gmail.com>
 
-ARG P4_VERSION
-
-#RUN curl -fsSL http://cdist2.perforce.com/perforce/r${P4_VERSION}/bin.linux26x86_64/p4 -o /usr/bin/p4 && chmod +x /usr/bin/p4 && \
-    #    curl -fsSL http://cdist2.perforce.com/perforce/r${P4_VERSION}/bin.linux26x86_64/p4p -o /usr/bin/p4p && chmod +x /usr/bin/p4p
-RUN yum install -y helix-proxy-20${P4_VERSION} && \
+RUN yum install -y helix-proxy-2022.1 && \
     yum clean all --enablerepo='*' && \
     rm -rf /var/cache/yum/*
 
