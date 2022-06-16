@@ -1,5 +1,5 @@
 FROM ambakshi/perforce-base
-MAINTAINER Amit Bakshi <ambakshi@gmail.com>
+LABEL Amit Bakshi <ambakshi@gmail.com>
 
 RUN yum install -y centos-release-scl-rh centos-release-scl openssh-server && \
     yum install -y \

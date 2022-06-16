@@ -1,5 +1,5 @@
 FROM ambakshi/perforce-base
-MAINTAINER Amit Bakshi <ambakshi@gmail.com>
+LABEL Amit Bakshi <ambakshi@gmail.com>
 
 RUN yum clean all --enablerepo='*' \
     && yum clean metadata --enablerepo='*' \
