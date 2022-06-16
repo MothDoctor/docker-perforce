@@ -1,6 +1,5 @@
 ARG P4_BASEIMAGE=centos@sha256:a799dd8a2ded4a83484bbae769d97655392b3f86533ceb7dd96bbac929809f3c
 FROM $P4_BASEIMAGE
-MAINTAINER Amit Bakshi <ambakshi@gmail.com>
 
 ENV container docker
 

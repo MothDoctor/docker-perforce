@@ -1,5 +1,4 @@
 FROM ambakshi/perforce-base
-LABEL Amit Bakshi <ambakshi@gmail.com>
 
 RUN yum install -y helix-proxy-2022.1 && \
     yum clean all --enablerepo='*' && \

@@ -51,11 +51,3 @@ you'll need to modify the `docker-compose.yml` file accordingly:
       gfperforce:
         volumes:
           /path/on/host:/data
-
-## Credits
-
-- Amit Bakshi (ambakshi@gmail.com)
-
-## License
-
-- [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)

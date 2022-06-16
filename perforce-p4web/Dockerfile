@@ -1,5 +1,4 @@
 FROM ambakshi/perforce-base
-LABEL Amit Bakshi <ambakshi@gmail.com>
 
 # This is the last version of p4web I could find
 ENV P4WEB_VERSION 12.1
