@@ -3,7 +3,7 @@ all: image
 
 -include local.mk
 
-P4_VERSION ?= 19.1
+P4_VERSION ?= 22.1
 P4_BASEIMAGE ?= centos@sha256:a799dd8a2ded4a83484bbae769d97655392b3f86533ceb7dd96bbac929809f3c
 DOCKER_REPO ?= ambakshi
 IMAGES=perforce-base perforce-proxy perforce-server perforce-git-fusion \
