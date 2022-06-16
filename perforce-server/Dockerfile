@@ -12,7 +12,7 @@ ENV NAME p4depot
 ENV P4CONFIG .p4config
 ENV DATAVOLUME /data
 ENV P4PORT 1666
-ENV P4USER p4admin
+ENV P4USER admin
 VOLUME ["$DATAVOLUME"]
 
 ADD ./p4-users.txt /root/
