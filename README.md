@@ -3,23 +3,8 @@
 A collection of [Perforce](http://perforce.com) docker images:
 
 - Perforce Base, an image containing the official repo and the p4 client
-- Perforce P4D Server
+- Perforce Server
 - Perforce Swarm
-
-![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)
-
-## Installation
-
-All operations on the images and repositories are encapsulated in Makefiles.
-
-Build images (the Makefile's default target):
-
-    $ make [image]
-
-Tag your images with your repo username and push the images to the Docker registry:
-
-    $ docker login
-    $ DOCKER_REPO=ambakshi make image push
 
 ## Usage
 
@@ -48,6 +33,9 @@ you'll need to modify the `docker-compose.yml` file accordingly:
       perforce:
         volumes:
           /path/on/host:/data
-      gfperforce:
-        volumes:
-          /path/on/host:/data
+
+## Credits
+* Obviously, most of the scripting comes from the forked [Ambakshi repository](https://github.com/ambakshi/docker-perforce)
+* Found it through detailed (Froyok blog entry)[https://www.froyok.fr/blog/2018-09-setting-up-perforce-with-docker-for-unreal-engine-4/]
+* Typemap script found in (Froyok repository)[https://github.com/Froyok/froyok-perforce]
+
