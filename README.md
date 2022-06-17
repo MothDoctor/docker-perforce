@@ -36,6 +36,7 @@ you'll need to modify the `docker-compose.yml` file accordingly:
 
 ## Credits
 * Obviously, most of the scripting comes from the forked [Ambakshi repository](https://github.com/ambakshi/docker-perforce)
-* Found it through detailed [Froyok blog entry](https://www.froyok.fr/blog/2018-09-setting-up-perforce-with-docker-for-unreal-engine-4)
-* Typemap script found in [Froyok repository](https://github.com/Froyok/froyok-perforce)
+* Found it thanks to [Froyok blog](https://www.froyok.fr/blog/2018-09-setting-up-perforce-with-docker-for-unreal-engine-4)
+* Typemap script found in [Froyok's fork](https://github.com/Froyok/froyok-perforce)
+* PUID/PGUID fixes (allowing to move server data to shared folder on Synology NAS) found in [7xanthus's fork](https://github.com/7xanthus/docker-perforce)
 
