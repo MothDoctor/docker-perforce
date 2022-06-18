@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-export NAME="${NAME:-p4depot}"
+export NAME="${NAME:-depot}"
 export P4ROOT="${DATAVOLUME}/${NAME}"
 export UESRID="${UID}"
 export GROUPID="${GID}"

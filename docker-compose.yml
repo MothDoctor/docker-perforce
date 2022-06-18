@@ -5,13 +5,13 @@ services:
     image: ambakshi/perforce-server
     hostname: perforce
     volumes:
-      - p4depot:/data
+      - depot:/data
     ports:
       - "1666:1666"
     env_file:
       - ./envfile
 volumes:
-  p4depot:
+  depot:
     external: true
 
 # vim: sts=2:ts=2:sw=2:et:ft=yaml:

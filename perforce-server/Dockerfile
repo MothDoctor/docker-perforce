@@ -8,7 +8,7 @@ RUN yum clean all --enablerepo='*' \
 
 
 EXPOSE 1666
-ENV NAME p4depot
+ENV NAME depot
 ENV P4CONFIG .p4config
 ENV DATAVOLUME /data
 ENV P4PORT 1666
