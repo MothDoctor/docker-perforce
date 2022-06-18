@@ -6,6 +6,11 @@ A collection of [Perforce](http://perforce.com) docker images:
 - Perforce Server
 - Perforce Swarm
 
+## Production-ready configuration
+- Update to recent Perforce server, currently 2022.1
+- Script contains extensive Unreal-specific tymemap, as explained in my community tutorial: [Using and setting up Perforce repository](https://dev.epicgames.com/community/learning/tutorials/Gxoj/unreal-engine-using-and-setting-up-perforce-repository#unreal-specific-typemap-5)
+- Repository set to case insensitive, to avoid rare but cumbersome problems.
+
 ## Usage
 
 The perforce server images are contained in their respective directories.
