@@ -4,12 +4,15 @@ A collection of [Perforce](http://perforce.com) docker images:
 
 - Perforce Base, an image containing the official repo and the p4 client
 - Perforce Server
-- Perforce Swarm
+- Perforce Swarm (not yet tested)
+
+Note: P4Web and Proxy comes with a forked repo, didn't modify or test anything there yet.
 
 ## Production-ready configuration
-- Update to recent Perforce server, currently 2022.1
+- Updated to Perforce 2022.1
 - Script contains extensive Unreal-specific tymemap, as explained in my community tutorial: [Using and setting up Perforce repository](https://dev.epicgames.com/community/learning/tutorials/Gxoj/unreal-engine-using-and-setting-up-perforce-repository#unreal-specific-typemap-5)
 - Repository set to case insensitive, to avoid rare but cumbersome problems.
+- Applied fix allowing to correctly map shared folder of Synology NAS to the Docker container.
 
 ## Usage
 
